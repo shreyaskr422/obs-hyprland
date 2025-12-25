@@ -1,14 +1,9 @@
 
 # 🚀 Hyprland + NVIDIA + OBS: Stable Configuration Guide
 
-![Hyprland](https://img.shields.io/badge/Compositor-Hyprland-EBA0AC?style=for-the-badge&logo=hyprland&logoColor=white)
-![NVIDIA](https://img.shields.io/badge/GPU-NVIDIA_RTX-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
-![OBS](https://img.shields.io/badge/Recording-OBS_Studio-white?style=for-the-badge&logo=obs-studio&logoColor=black)
-
 This repository documents a high-performance, reproducible configuration for running **Hyprland** on **NVIDIA GPUs** with a specific focus on **OBS Studio** stability. 
 
 The goal of this configuration is to eliminate micro-stutter, ensure consistent frame pacing, and provide a reliable environment for both daily productivity and high-quality content creation.
-
 
 ## ⚙️ Hyprland Configuration
 
