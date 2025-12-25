@@ -3,8 +3,6 @@
 
 This repository documents a high-performance, reproducible configuration for running **Hyprland** on **NVIDIA GPUs** with a specific focus on **OBS Studio** stability. 
 
-The goal of this configuration is to eliminate micro-stutter, ensure consistent frame pacing, and provide a reliable environment for both daily productivity and high-quality content creation.
-
 ## ⚙️ Hyprland Configuration
 
 ### Display Settings
