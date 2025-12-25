@@ -24,11 +24,6 @@ env = __GL_VRR_ALLOWED,0
 env = __GL_GSYNC_ALLOWED,0
 env = __GL_SYNC_TO_VBLANK,1
 
-# Toolkit Backend Force
-env = XDG_SESSION_TYPE,wayland
-env = XDG_CURRENT_DESKTOP,Hyprland
-env = GDK_BACKEND,wayland
-env = QT_QPA_PLATFORM,wayland
 ```
 
 ---
