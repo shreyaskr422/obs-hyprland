@@ -1,6 +1,3 @@
-This is a professional, polished version of your configuration guide formatted specifically for a GitHub `README.md`. It uses clean typography, clear sectioning, and visual cues to make the technical information easy to digest.
-
----
 
 # 🚀 Hyprland + NVIDIA + OBS: Stable Configuration Guide
 
@@ -12,20 +9,6 @@ This repository documents a high-performance, reproducible configuration for run
 
 The goal of this configuration is to eliminate micro-stutter, ensure consistent frame pacing, and provide a reliable environment for both daily productivity and high-quality content creation.
 
----
-
-## 🖥️ System Overview
-
-| Component | Specification |
-| :--- | :--- |
-| **GPU** | NVIDIA RTX Series (Laptop) |
-| **CPU** | AMD Ryzen HX Series |
-| **Display** | 1920×1200 @ 165Hz |
-| **Compositor** | Hyprland (Wayland) |
-| **Driver** | NVIDIA Proprietary |
-| **Encoder** | NVENC (AV1 / HEVC) |
-
----
 
 ## ⚙️ Hyprland Configuration
 
@@ -105,19 +88,3 @@ These settings target high-fidelity recording with minimal performance impact.
 - **Disable VRR:** Variable Refresh Rate on laptop panels can cause flickering in certain Wayland implementations.
 - **Stay Standard:** Avoid injecting custom NVENC parameters unless specifically troubleshooting.
 - **File Safety:** Always record to `.mkv`. You can use OBS's "Remux to MP4" feature after the recording is finished.
-
-## ✅ Results
-By following this configuration, you should achieve:
-*   **Zero-drop UI:** Smooth scrolling and window animations.
-*   **Predictable Frame Pacing:** No micro-stutters during high GPU load.
-*   **Studio Quality:** Reliable, high-bitrate recordings suitable for professional editing.
-
----
-
-## 📌 Optional Enhancements
-*   **Consistency:** Switch display to 120Hz if 165Hz causes unnecessary battery drain or heat.
-*   **Archival:** Use **AV1** if your RTX card supports it (40-series and newer).
-*   **Maintenance:** Keep `nvidia-dkms` and `hyprland` updated to the latest stable versions.
-
----
-*Created for the Linux Community. If this helped you, feel free to ⭐️ the repo!*
