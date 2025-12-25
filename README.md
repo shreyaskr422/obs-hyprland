@@ -14,7 +14,7 @@ monitor = eDP-1, 1920x1200@165, 0x0, 1
 ```
 
 ### Environment Variables
-Add these to your `hyprland.conf` to optimize the NVIDIA driver's behavior under Wayland and ensure toolkits (GTK/QT) prioritize Wayland.
+Add these to your `hyprland.conf` to optimize the NVIDIA driver's behavior under Wayland.
 
 ```bash
 # Fix micro-stutter and ensure consistent frame timing
